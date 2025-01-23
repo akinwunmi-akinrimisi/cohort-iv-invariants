@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./mocks/Token.sol";
+import "test/mocks/Token.sol";
 import {Test, console} from "forge-std/Test.sol";
 
 contract Savings {

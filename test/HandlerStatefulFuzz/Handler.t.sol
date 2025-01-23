@@ -2,9 +2,9 @@
 pragma solidity 0.8.20;
 
 import {Test} from "forge-std/Test.sol";
-import {HandlerStatefulFuzzCatches} from "../../../src/HandlerStatefulFuzzCatches.sol";
-import {YeildERC20} from "../../mocks/YeildERC20.sol";
-import {MockUSDC} from "../../mocks/MockUSDC.sol";
+import {HandlerStatefulFuzzCatches} from "src/HandlerStatefulFuzzCatches.sol";
+import {YeildERC20} from "test/mocks/YeildERC20.sol";
+import {MockUSDC} from "test/mocks/MockUSDC.sol";
 
 contract Handler is Test {
     HandlerStatefulFuzzCatches handlerStatefulFuzzCatches;

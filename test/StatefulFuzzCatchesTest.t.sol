@@ -3,7 +3,7 @@ pragma solidity 0.8.20;
 
 import {Test} from "forge-std/Test.sol";
 import {StdInvariant} from "forge-std/StdInvariant.sol";
-import {StatefulFuzzCatches} from "../../src/StatefulFuzzCatches.sol";
+import {StatefulFuzzCatches} from "src/StatefulFuzzCatches.sol";
 
 contract StatefulFuzzCatchesTest is StdInvariant, Test {
     StatefulFuzzCatches public sfc;
